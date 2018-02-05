@@ -1,4 +1,3 @@
-import { Playoff } from './data';
 export interface modeloMixto{
     circuito: String;
     temporadas:[{
