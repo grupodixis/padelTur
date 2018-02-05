@@ -9,7 +9,9 @@ export interface Grupo {
   idGrupo: Number;  // id : 1 // Identificador unico del grupo
   equipos: Number [];   // [1, 2, 3, 4] //equipos que participan en el grupo ordenados por ranking.
   puntos: Number; // Cantidad de puntos que suma un jugador por estar aqui
+  partidos: Number []; //id de partidos que se juegan en este grupo
 }
+
 export interface Equipo {
   idEquipo: Number;  // id : 1 Identificador unico del Equipo
   nombre: String; // Equipo "la ostia en vinagre"
@@ -38,8 +40,26 @@ export interface Nivel {
   nivel: Number;  // Nivel real en cuestion que permitira a los jugadores entrar ej 4
 }
 
+export interface Torneo{
+  idTorneo: Number;  // Identificador del torneo
+  nombreTorneo: String;  // Nombre del torneo
+}
+
+export interface Ranking{
+  season: String;  // Temporada 2018 /2019 
+  idTorneos: Number [];  // Array con los id de torneos que formaran parte de esa temporada
+
+}
+
 /*
-Torneo > Nivel > Grupo | Playoff > Partido > Equipo > Jugador
+Dado el siguiente ranking de jugadores:
+Ranking =[{
+  
+}]
+J1 : 300
+
+
+RAnking > Torneo > Nivel > Grupo | Playoff > Partido > Equipo > Jugador
 
 
 Logica de armado de playoff:

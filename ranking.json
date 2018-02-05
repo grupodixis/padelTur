@@ -1,0 +1,80 @@
+[{
+    "nombre": "Categoría cuarta Masculino 2018/2019",
+    "idTemporada": 53,
+    "posiciones": [{
+            "idJugador": "31",
+            "puntos": 190,
+            "torneosJugados": [
+                { "idTorneo": 3, "puntosGanados": 70, "idCompanero": 32 },
+                { "idTorneo": 4, "puntosGanados": 50, "idCompanero": 32 },
+                { "idTorneo": 5, "puntosGanados": 70, "idCompanero": 32 }
+            ]
+
+        },
+        {
+            "idJugador": "32",
+            "puntos": 190,
+            "torneosJugados": [
+                { "idTorneo": 3, "puntosGanados": 70, "idCompanero": 31 },
+                { "idTorneo": 4, "puntosGanados": 50, "idCompanero": 31 },
+                { "idTorneo": 5, "puntosGanados": 70, "idCompanero": 31 }
+            ]
+        },
+        {
+            "idJugador": "33",
+            "puntos": 170,
+            "torneosJugados": [
+                { "idTorneo": 3, "puntosGanados": 50, "idCompanero": 34 },
+                { "idTorneo": 4, "puntosGanados": 70, "idCompanero": 34 },
+                { "idTorneo": 5, "puntosGanados": 50, "idCompanero": 34 }
+            ]
+        },
+        {
+            "idJugador": "34",
+            "puntos": 170,
+            "torneosJugados": [
+                { "idTorneo": 3, "puntosGanados": 50, "idCompanero": 33 },
+                { "idTorneo": 4, "puntosGanados": 70, "idCompanero": 33 },
+                { "idTorneo": 5, "puntosGanados": 50, "idCompanero": 33 }
+            ]
+        },
+        {
+            "idJugador": "35",
+            "puntos": 120,
+            "torneosJugados": [
+                { "idTorneo": 3, "puntosGanados": 40, "idCompanero": 36 },
+                { "idTorneo": 4, "puntosGanados": 40, "idCompanero": 36 },
+                { "idTorneo": 5, "puntosGanados": 40, "idCompanero": 36 }
+            ]
+        },
+        {
+            "idJugador": "36",
+            "puntos": 120,
+            "torneosJugados": [
+                { "idTorneo": 3, "puntosGanados": 40, "idCompanero": 35 },
+                { "idTorneo": 4, "puntosGanados": 40, "idCompanero": 35 },
+                { "idTorneo": 5, "puntosGanados": 40, "idCompanero": 35 }
+            ]
+        },
+        {
+            "idJugador": "37",
+            "puntos": 90,
+            "torneosJugados": [
+                { "idTorneo": 3, "puntosGanados": 30, "idCompanero": 38 },
+                { "idTorneo": 4, "puntosGanados": 30, "idCompanero": 38 },
+                { "idTorneo": 5, "puntosGanados": 30, "idCompanero": 38 }
+            ]
+        },
+        {
+            "idJugador": "38",
+            "puntos": 90,
+            "torneosJugados": [
+                { "idTorneo": 3, "puntosGanados": 30, "idCompanero": 37 },
+                { "idTorneo": 4, "puntosGanados": 30, "idCompanero": 37 },
+                { "idTorneo": 5, "puntosGanados": 30, "idCompanero": 37 }
+            ]
+        }
+
+    ]
+
+}]
