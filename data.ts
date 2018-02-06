@@ -39,11 +39,12 @@ export interface Playoff {
 }
 
 export interface Partido {
-  idPartido: number; // Identificador unico del partido
+  private idPartido: number; // Identificador unico del partido
   infoPartido: {nombre:String,Fecha:Date}; // Ejemplo Nombre: 1º Partido Fecha: 12/12/2019 20:30 hs
   idGrupo: number; // grupo id 4 Indentificamos a que grupo pertenece este partido
-  resultado: [{ idEquipo1: Number, sets: Number [] }]  //  Resultados [{ idEquipo1: 2, sets: Number [6,4,3] },{ idEquipo1: 3, sets: Number [4,6,6] }]
-  }
+  resultado: [{ idEquipo1: Number, sets: Number [] }];  //  Resultados [{ idEquipo1: 2, sets: Number [6,4,3] },{ idEquipo1: 3, sets: Number [4,6,6] }]
+  resuelve: function () { return; }; 
+}
 
 
 export interface Equipo {
@@ -77,6 +78,10 @@ Ranking =[{
   
 }]
 J1 : 300
+eq 1  [3,6,2]   [4,6,6] -2,6,-1  3
+
+eq 2  [6,4,6]   [6,0,7] 2,-6,1   -3
+
 
 
 RAnking > Torneo > Nivel > Grupo | Playoff > Partido > Equipo > Jugador
